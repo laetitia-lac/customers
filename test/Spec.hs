@@ -28,7 +28,7 @@ null_customer = Customer 0.0 0 "" 0.0
 -- from a filepath, get the content of the JSON data file under the ByteString format --
 
 one_customer_byte_string = "\"{\\\"latitude\\\": \\\"54.138284\\\", \\\"user_id\\\": 12, \\\"name\\\": \\\"Christina Aze\\\", \\\"longitude\\\": \\\"-6.954994\\\"}\""
-multiple_customers_byte_string = "\"[{\\\"latitude\\\": \\\"54.138284\\\", \\\"user_id\\\": 12, \\\"name\\\": \\\"Christina Aze\\\", \\\"longitude\\\": \\\"-6.954994\\\"},\\n{\\\"latitude\\\": \\\"54.62415\\\", \\\"user_id\\\": 1, \\\"name\\\": \\\"Alice Qsdfg\\\", \\\"longitude\\\": \\\"-6.954994\\\"},\\n{\\\"latitude\\\": \\\"53.339428\\\", \\\"user_id\\\": 2, \\\"name\\\": \\\"Ian McIop\\\", \\\"longitude\\\": \\\"-6.257664\\\"}]\""
+multiple_customers_byte_string = "\"[{\\\"latitude\\\": \\\"54.138284\\\", \\\"user_id\\\": 12, \\\"name\\\": \\\"Christina Aze\\\", \\\"longitude\\\": \\\"-6.954994\\\"},\\r\\n{\\\"latitude\\\": \\\"54.62415\\\", \\\"user_id\\\": 1, \\\"name\\\": \\\"Alice Qsdfg\\\", \\\"longitude\\\": \\\"-6.954994\\\"},\\r\\n{\\\"latitude\\\": \\\"53.339428\\\", \\\"user_id\\\": 2, \\\"name\\\": \\\"Ian McIop\\\", \\\"longitude\\\": \\\"-6.257664\\\"}]\""
 empty_file_byte_string = "\"\""
 empty_array_byte_string = "\"[]\""
 
